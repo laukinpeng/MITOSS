@@ -1,0 +1,126 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@500&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5em;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.top-box {
+  /* flex-flow: flex; */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  max-width: 95em;
+  margin: 0 auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+}
+
+.top-box-2 {
+  /* flex-flow: flex; */
+  display: flex;
+  gap: 1em;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100%; */
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.fg-1 {
+  flex-grow: 1;
+}
+
+.fs-1 {
+  flex-shrink: 1;
+}
+
+.title {
+  font-size: 3em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+.subtitle {
+  margin-top: 1em;
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.talk-to-us {
+  margin-top: 1.5em;
+  /* font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600; */
+}
+
+.talk-to-us button {
+  font-size: 0.8em;
+  padding: 0.5em 1em; /* Adjust padding as needed */
+  border: none;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff; /* Adjust background color */
+  color: #000000; /* Adjust text color */
+  cursor: pointer;  border-radius: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0.7em;
+  border-radius: 1em;
+  padding-bottom: 0.7em;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.scroll {
+  font-size: 0.8em;
+  padding-bottom: 0.5em;
+}
+
+.mouse-down {
+  width: 1em;
+  margin: 0.5em auto 0;
+  animation-name: mouse-down-anim;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes mouse-down-anim {
+  0%   {transform: translateY(-0.5em)}
+  15%  {transform: translateY(0em)}
+  85%  {transform: translateY(0em)}
+  100% {transform: translateY(-0.5em)}
+}
+
