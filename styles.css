@@ -99,6 +99,14 @@
   justify-content: space-between;
 }
 
+.jc-c {
+  justify-content: center;
+}
+
+.gap-16 {
+  gap: 16em;
+}
+
 .placeholder-img {
   width: 40em;
 }
