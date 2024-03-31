@@ -107,6 +107,26 @@
   gap: 16em;
 }
 
+.fw {
+  flex-wrap: wrap;
+}
+
+.fb-50 {
+  flex-basis: 50%;
+}
+
+.fg-0 {
+  flex-grow: 0;
+}
+
+.fs-0 {
+  flex-shrink: 0;
+}
+
+.w-fc {
+  width: fit-content;
+}
+
 .placeholder-img {
   width: 40em;
 }
